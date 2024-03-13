@@ -1,0 +1,87 @@
+*{
+  margin:0;
+  padding:0;
+  font-family:'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+.app{
+    background: #f0f0f8;
+    width: 90%;
+    max-width: 660px;
+    margin:50px auto 0;
+    border-radius: 10px;
+    padding:30px;
+
+}
+
+.app h1{
+    font-size: 25px;
+    font-weight: 600;
+    border-bottom: 1px solid #e6e6e6;
+    padding:30px;  
+}
+.quiz{
+    padding: 20px 0 ;
+}
+.quiz h2{
+    font-size: 18px;
+    font-weight: 600;
+}
+.butn{
+    padding: 10px;
+    margin:  10px 0;
+    border: none;
+    border-radius: 5px;
+    color: rgb(255, 254, 254);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width:100%;
+    background: rgb(37, 118, 118);
+
+}
+.butn:hover:not([disabled]){
+    background: #f7f7f7;
+    color:black;
+}
+.butn:disabled{
+    cursor:no-drop ;
+}
+h3{
+    color:black;
+    font-size: 40px;
+}
+.timersection{
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+    margin-bottom: 100px; 
+    margin-top: 100px;  
+    color: white;
+    border-radius: 10px;
+}
+
+
+#startbutton{
+    margin:  10px 0;
+    margin-top: 150px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.correct{
+    background:green;
+}
+.wrong{
+    background:red;
+}
+.buttonreturn{
+    background-color: rgb(61, 61, 61);
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    
+}
